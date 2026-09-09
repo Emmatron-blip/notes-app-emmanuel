@@ -36,8 +36,8 @@ export default function Home() {
   return (
     <div className="shell">
       <header>
-        <img src="/Muhsin.jpg" alt="Muhsin" style={{ width: "40px", height: "40px", borderRadius: "50%" }} />
-        <strong>Offline Notes Lab — Muhsin 2024/1/96917EE</strong>
+        <img src="/Muhsin.jpg" alt="Edokobi Chukwuemelieogu Emmanuel" style={{ width: "40px", height: "40px", borderRadius: "50%" }} />
+        <strong>Offline Notes Lab — Edokobi Chukwuemelieogu Emmanuel 2024/1/95070EE</strong>
         <span>{online ? "Online" : "Offline"}</span>
       </header>
       <aside>
