@@ -3,7 +3,7 @@ body { margin: 0; background: #fbfaf7; color: #1d1d1b; font-family: Arial, sans-
 button, input, textarea { font: inherit; }
 button { cursor: pointer; }
 .shell { min-height: 100vh; }
-header { height: 64px; border-bottom: 1px solid #1d1d1b; display: flex; justify-content: space-between; align-items: center; padding: 0 5vw; }
+header { grid-column: 1 / -1; height: 64px; border-bottom: 1px solid #1d1d1b; display: flex; justify-content: space-between; align-items: center; padding: 0 5vw; }
 header span, aside p, .eyebrow, small { color: #6f6a60; font-size: 12px; letter-spacing: .08em; }
 .shell { display: grid; grid-template-columns: 250px 1fr; }
 aside { min-height: calc(100vh - 64px); border-right: 1px solid #d8d2c8; padding: 32px 24px; }
